@@ -12,7 +12,7 @@ sudo apt-get install libgtk-3-dev
 ## Usage
 1. Create a project folder that contains a "glade" folder to store glade files and a "src" folder to store c code.
 2. Design your GUI layout in Glade and save it in the glade folder
-3. Download the <a href="https://github.com/reaperofchaos/GladeParrser/blob/master/GladeTemplateParser" download>compiled binary</a>
+3. Download the <a href="https://github.com/reaperofchaos/GladeParrser/raw/master/GladeTemplateParser" download>compiled binary</a>
 (compiled using Ubuntu 18.10 "Cosmic Cuttlefish" G++ 8.3.0  and save to project folder
 4. Type "./GladeTemplateParser glade/<name of glade file>
   This will create a main.c in the src folder and a makefile in the project directory
