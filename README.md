@@ -1,13 +1,16 @@
 # GladeParrser
-A tool that reads a Gtk Glade File and creates template C code that can be compiled to a GUI application. 
+A tool that reads a Gtk Glade File and creates template C code that can be compiled to a GUI application. <br />
+The design of template c code is based off the main.c design patterns outlined in the GTK tutorials found at <a href="https://prognotes.net/gtk-glade-c-programming">Programmers Notes</a> 
+*Note I do not have any affliation with the above website. I have found it be useful in learning how to build GUI applications using GTK on Unix environments
+
 # Instructions
 ## Setup up the Development environment
 Requires a Unix OS <br />
 Requires GCC for compiling C files. G++ is optional if you want to build GladeParser from source <br />
 1. Install Glade - a design tool for creating GUIs using GTK <br />
-sudo apt-get install glade
+"sudo apt-get install glade"
 2. Install GTK <br />
-sudo apt-get install libgtk-3-dev
+"sudo apt-get install libgtk-3-dev"
 
 ## Usage
 1. Create a project folder that contains a "glade" folder to store glade files and a "src" folder to store c code.
