@@ -1,4 +1,4 @@
-# GladeParrser
+# GladeParser
 A tool that reads a Gtk Glade File and creates template C code that can be compiled to a GUI application. <br />
 The design of template c code is based off the main.c design patterns outlined in the GTK tutorials found at <a href="https://prognotes.net/gtk-glade-c-programming">Programmers Notes</a> <br />
 * Note I do not have any affliation with the above website. I have found it be useful in learning how to build GUI applications using GTK on Unix environments
